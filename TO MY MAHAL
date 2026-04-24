@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAHAL IM SO SORRY🥺</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      max-width: 500px;
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      color: #e63946;
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      background: #e63946;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #c9182b;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>MAHAL IM SO SORRY🥺</h1>
+    <p>
+      Mahal I just want to say I'm really sorry for what happened and hurting you all the time.
+      I know I hurt you, and that was never my intention.
+      You mean so much to me, and it honestly hurts knowing I made you feel this way.
+    </p>
+
+    <p>
+      I miss us being okay i wish i can hug you rn. I miss your smile palagi alam moyan, your laugh, everything.
+      I'm willing to fix things and do better, because you matter to me more than anything.
+    </p>
+
+    <p>
+      Please forgive me. 🥺
+    </p>
+
+    <button onclick="showMessage()">Click me</button>
+
+    <p id="extra" style="display:none; margin-top:15px; color:#555;">
+      I LOVE YOU SO MUCHHHHH🥺, and I'm not giving up on us. 🥺
+    </p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('extra').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
